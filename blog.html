@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Harmony - Blog</title>
+    <link rel="icon" type="image/png" href="./image/group logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+     <header id="header">
+      <nav class="navbar">
+        <h3>sonam</h3>
+        <div class="logo">
+          <img src="./image/group logo.png" alt="Logo" />
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+<!-- Overlay for mobile menu -->
+<div class="nav-overlay"></div>
+   <!-- body -->
+ <!-- Main section updated for better hero spacing, responsive structure, and improved blog content layout -->
+ <main class="blog-main">
+        <section class="hero" role="img" aria-label="Cozy morning with plants and a journal">
+            <div class="hero-image"></div>
+            <div class="hero-card">
+                <div class="hero-tag">
+                    Wellness
+                </div>
+                <h1 class="hero-title" style="color:white;">The Art of Mindful Mornings: Cultivating Peace in a Busy World</h1>
+                <!-- <div class="hero-meta">wellness harmony • May 20, 2026 • 6 min read</div> -->
+            </div>
+        </section>
+
+        <!-- main content-->
+         <section class="sangaycon" >
+            <h1>Daily Post</h1>
+                <div class="split-section" data-aos="fade-right" data-aos-duration="1000">
+
+            <!-- IMAGE -->
+            <div class="img-placeholder" >
+
+                <img src="./image/Bhutan-Active-Wellness (1).webp" alt="Mission Image">
+
+            </div>
+
+            <!-- TEXT -->
+            <div class="text-block" data-aos="fade-up">
+
+                <h2>Breathe in calm, breathe out stress.</h2>
+
+                <p>Mindful mornings are about creating small, repeatable rituals that orient your attention, regulate your breath, and set an intention for the day. They don't require hours.</p>
+                <a href="service.html"><button class="btnnn">Read more</button></a>
+            </div>
+
+
+        </div>
+
+        <!-- second image and text -->
+         <div class="split-section reverse" data-aos="fade-right" data-aos-duration="1000">
+
+            <!-- IMAGE -->
+            <div class="img-placeholder" >
+
+                <img src="./image/self-awerness img.jpg" alt="Mission Image">
+
+            </div>
+
+            <!-- TEXT -->
+            <div class="text-block" data-aos="fade-up">
+
+                <h2>Find your balance, find your peace.</h2>
+
+                <p>In our fast-paced modern landscape, the first hour of the day often dictates the trajectory of our mental well-being. Most of us wake to the jarring chime of an alarm, immediately plunging into a sea of notifications, emails, and demands.</p>
+                 <a href="service.html"><button class="btnnn">Read more</button></a>
+            </div>
+            </div>
+
+
+        </div>
+
+         </section>
+
+
+
+
+<!-- Parallax Section 1 -->
+<section class="parallax" id="parallax1">
+  <div class="content para1con">
+    <h2>Wellness Harmony</h2>
+    <p style="color: white;">🧘 Balance Your Body, Calm Your Mind</p>
+    <button class="btnnn" class="btn btn-light" onclick="goToNext('parallax2')">Veiw Our Post</button>
+  </div>
+</section>
+
+<!-- Parallax Section 2 -->
+<section class="parallax" id="parallax2">
+  <div class="content">
+    <h2>Healthy Living</h2>
+    <!-- Cards -->
+    <div class="sangay-img-card">
+      <img src="./image/Bhutan-Active-Wellness (1).webp" alt="Breathing room"> 
+      <div class="sangay-card">
+        <h3 class="card-title">Cognitive Breathing Room to Heal</h3>
+        <p class="card-description">Over time, a consistent practice of silence deepens self-awareness and makes space for creativity. Rather than seeking silence as escape, a consistent practice of silence connects you.</p>
+      </div>
+    </div>
+
+    <div class="sangay-img-card" data-aos="fade-right" data-aos-duration="1000">
+      <img src="./image/breathing room.jpg" alt="Self-awareness practice"> 
+      <div class="sangay-card">
+        <h3 class="card-title">Deepening Self-Awareness & Creativity</h3>
+        <p class="card-description">A consistent practice of silence connects you deeper to your thoughts, fosters self-compassion, and opens the floodgates for creative inspiration.</p>
+      </div>
+    </div>
+
+    <!-- Button at the end -->
+    <div class="next-btn-wrapper">
+      <button class="btnnn" class="btn btn-light" onclick="goToNext('parallax3')">Go to Next</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- Parallax Section 3 -->
+<section class="parallax" id="parallax3">
+  <div class="content">
+    <h2>Inner Peace</h2>
+   
+
+    <!-- Carousel Wrapper -->
+    <div class="carousel">
+      <div class="carousel-track">
+        <!-- Card 1 -->
+        <div class="sangay-card-mini">
+          <img src="./image/morningyoga.png" alt="Yoga practice">
+          <h3>Morning Yoga Flow</h3>
+          <p>Gentle stretches and mindful breathing to awaken your body.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="sangay-card-mini">
+          <img src="./image/meditatiov for clarity.png" alt="Meditation practice">
+          <h3>Meditation for Clarity</h3>
+          <p>Daily meditation reduces stress and sharpens focus.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="sangay-card-mini">
+          <img src="./image/mindful nutrition.png" alt="Healthy nutrition">
+          <h3>Mindful Nutrition</h3>
+          <p>Balanced meals nourish both body and spirit.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="sangay-card-mini">
+          <img src="./image/reflective journaling.png" alt="Journaling habit">
+          <h3>Reflective Journaling</h3>
+          <p>Writing thoughts daily builds self-awareness.</p>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-btn prev">‹</button>
+      <button class="carousel-btn next">›</button>
+    </div>
+
+    <!-- Button at the end -->
+    <div class="next-btn-wrapper">
+      <button  class="btnnn" class="btn btn-light" onclick="goToNext('parallax1')">Go Back</button>
+    </div>
+  </div>
+</section>
+
+
+
+        <!-- footer -->
+            <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="./image/group logo.png" id="looog" alt="Logo">
+                <p>Your Partner in Holistic Health and Wellness</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer">
+                    <li><a href="https://www.facebook.com/niznetnb"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@sonam.jerry4?_r=1&_t=ZS-96XiqtlEEHS"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="https://www.instagram.com/sangay.mbumo?igsh=MW9mZW5vMXJ4cHNoMg=="><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: wellnessHarmony.com</li>
+                    <li>Phone: 77298755</li>
+                    <li>Location: Thimphu, Bhutan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026. All rights reserved.</p>
+        </div>
+    </footer>
+    
+     <!-- Chat Window -->
+            <script src="script.js"></script>
+            <script src="blog.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+  AOS.init({
+    duration:2000
+  });
+</script>
+ 
+</body>
+</html>
